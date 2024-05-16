@@ -1,0 +1,11 @@
+.coupon button {
+  @apply outline-0;
+}
+
+.coupon .dy-tooltip::before {
+  @apply rounded-md bg-abbey/90 p-[9px_6px] text-12 leading-[14px] text-white;
+}
+
+.coupon .dy-tooltip::after {
+  @apply hidden;
+}

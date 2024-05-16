@@ -1,0 +1,25 @@
+/* Overrides */
+.options-wrapper .checkbox-wrapper-46 .cbx > span:first-child {
+  @apply h-3 w-3 min-w-3;
+}
+
+.options-wrapper .checkbox-wrapper-46 .cbx > span .sub {
+  @apply h-3 w-3;
+
+  top: -0.4px;
+  right: -0.5px;
+}
+
+.options-wrapper .checkbox-wrapper-46 .cbx span:first-child svg {
+  @apply left-0 top-0;
+
+  top: -0.9px !important;
+  left: -3px !important;
+}
+
+.options-wrapper .checkbox-wrapper-46 .cbx span.vertical-truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

@@ -1,0 +1,94 @@
+@tailwind components;
+
+@layer components {
+  .subNavbarWrapper {
+    @apply bg-background;
+    box-shadow: 0px 4px 12px 0px hsla(0, 0%, 0%, 0.06);
+
+    .subNavbar {
+      @apply mx-auto flex items-center justify-between pb-4 pt-2;
+    }
+
+    .categoryMenuItem {
+      @apply mr-10 flex;
+    }
+
+    .subNavItem {
+      @apply rounded-full;
+
+      .subNavItemLink {
+        @apply flex items-center text-base hover:bg-white active:bg-white;
+
+        &:hover {
+          .hoverIcon {
+            @apply block;
+          }
+          .navNormalIcon {
+            @apply hidden;
+          }
+        }
+        .hoverIcon {
+          @apply hidden;
+        }
+
+        .navItemIcon,
+        .navNormalIcon,
+        .hoverIcon {
+          @apply mr-2;
+
+          .saveIcon {
+            @apply mb-1 mr-0;
+          }
+        }
+      }
+
+      &.muted {
+        @apply text-abbey;
+      }
+
+      &.primary {
+        @apply font-bold text-primary;
+      }
+    }
+
+    .categoryWrapper {
+      @apply overflow-clip rounded-full border-2 border-primary p-0 pr-2 text-primary;
+      height: 33px;
+
+      .hamburgerIcon {
+        @apply bg-primary;
+        padding: 10px;
+        width: 41px;
+      }
+
+      .buttonText {
+        @apply pl-2;
+      }
+    }
+
+    .categoryTable {
+      --side-offset: 6rem;
+      @apply grid-cols-4 p-2 md:grid;
+
+      .categoryList {
+        .categoryItem {
+          @apply flex items-center gap-4 p-2;
+
+          &.active {
+            @apply bg-muted;
+          }
+        }
+      }
+
+      .subcategoryList {
+        @apply col-span-3 bg-muted;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .subNavbarWrapper {
+      box-shadow: 0px 4px 12px 0px hsla(0, 0%, 0%, 0.06);
+    }
+  }
+}

@@ -1,0 +1,176 @@
+@tailwind components;
+
+@layer components {
+  .containerWrapper {
+    @apply mx-auto;
+    max-width: var(--xl-width);
+  }
+
+  .carouselWrapper {
+    @apply grid grid-cols-3 space-x-3;
+  }
+
+  .mainCard {
+    @apply grid grid-cols-1 rounded-lg border bg-background xl:grid-cols-2;
+
+    margin-top: 30px;
+    border-color: var(hsl(--border-color));
+
+    .cardLeftSection {
+      @apply p-6 md:pb-14 md:pl-14 md:pt-12;
+
+      .cardLeftSectionTitle {
+        @apply mb-3 text-2xl font-bold md:text-3xl;
+      }
+
+      .cardLeftSectionDescription {
+        @apply text-sm text-gray-500;
+      }
+
+      .cardLeftSectionTagline {
+        @apply my-[30px] rounded-full border-2 border-primary py-1 text-center text-xl font-bold text-primary;
+      }
+
+      .cardLeftSectionList {
+        @apply grid grid-cols-1 gap-3 md:grid-cols-2;
+
+        li {
+          @apply mb-3 rounded-lg bg-muted p-4 text-center text-base font-bold;
+
+          img {
+            @apply inline-block w-4;
+          }
+
+          .title {
+            @apply text-[18px] font-bold;
+          }
+
+          .description {
+            @apply text-[14px] text-muted-foreground;
+          }
+        }
+      }
+    }
+
+    .cardRightSection {
+      @apply relative flex items-center justify-center overflow-clip xl:justify-end;
+      background:
+        linear-gradient(0deg, transparent, hsl(25 100% 50% / 60%) 20%, hsl(25 100% 50% / 80%)),
+        right / cover no-repeat url('../components/assets/unsplash.png');
+
+      &:before {
+        @apply hidden rounded-full bg-white xl:block;
+        content: '';
+        height: 60rem;
+        width: 60rem;
+        position: absolute;
+        top: calc(50% - 30rem);
+        left: -50rem;
+      }
+
+      .cardRightSectionText {
+        @apply py-6 text-center text-white md:py-10 xl:py-0 xl:pr-12 xl:text-left;
+
+        .title {
+          @apply text-3xl font-bold md:text-5xl xl:text-6xl;
+        }
+
+        .description {
+          @apply mb-6 text-base font-light md:text-2xl xl:text-3xl;
+        }
+      }
+    }
+  }
+
+  .claimCard {
+    @apply rounded-lg border bg-background;
+
+    margin-top: 30px;
+
+    .cardTitle {
+      @apply my-4 text-pretty px-6 text-center text-[32px] font-bold md:px-0;
+    }
+
+    .cardList {
+      @apply grid grid-cols-1 rounded-lg border p-12 md:grid-cols-3;
+      border-color: #dcdcdc;
+      margin: -1px 0 -1px -1px;
+
+      li {
+        @apply flex gap-2 py-4 md:justify-center md:gap-4 md:py-0;
+        .title {
+          @apply text-[20px] font-bold;
+        }
+
+        .description {
+          @apply text-[14px] text-gray-500;
+        }
+      }
+    }
+  }
+
+  .signUpLetternews {
+    @apply flex justify-center;
+    background:
+      radial-gradient(circle at center, white, rgba(255, 255, 255, 0.2)),
+      center / cover no-repeat url('../components/assets/signin-bg.png'),
+      hsla(25, 100%, 66%, 1);
+    background-blend-mode: screen;
+
+    margin-top: 30px;
+
+    .callToActionForm {
+      @apply mx-auto my-10 md:my-[70px];
+
+      .buttonGroup {
+        @apply mt-6 flex justify-center gap-4;
+
+        .signInButton,
+        .signUpButton {
+          @apply w-[180px] rounded-full border-4 border-primary px-10 py-7 text-2xl md:w-[219px] md:text-[28px];
+        }
+
+        .signInButton {
+          @apply bg-transparent text-primary;
+        }
+      }
+    }
+  }
+
+  .feedbackCard {
+    @apply rounded-lg border bg-background;
+    margin-top: 30px;
+
+    .cardTitle {
+      @apply my-4 text-pretty px-6 text-center text-[32px] font-bold md:px-0;
+    }
+  }
+
+  .brandCard {
+    @apply rounded-lg border bg-background;
+    margin-top: 30px;
+
+    .cardTitle {
+      @apply my-4 text-pretty px-6 text-center text-[32px] font-bold md:px-0;
+    }
+
+    .cardList {
+      @apply grid grid-cols-2 gap-[35px] p-10 md:grid-cols-6;
+
+      .cardContent {
+        @apply h-full w-full p-0;
+
+        img {
+          @apply w-full px-5 py-3 grayscale;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .homePage .signUpLetternews {
+      @apply text-primary-foreground;
+      background: hsl(var(--primary) / 30%);
+    }
+  }
+}

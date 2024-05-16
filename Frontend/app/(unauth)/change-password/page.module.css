@@ -1,0 +1,28 @@
+@tailwind components;
+
+@layer components {
+  .container {
+    @apply mx-auto mt-[50px] max-w-[980px] rounded-lg bg-background;
+
+    .input {
+      @apply h-14 py-[27px] text-[14px] focus-visible:ring-0 focus-visible:ring-offset-0;
+    }
+
+    .button {
+      @apply disabled:bg-gray-10 disabled:opacity-100;
+
+      height: 64px;
+      border-radius: 32px;
+      padding-left: 35px;
+      padding-right: 35px;
+
+      .leftIcon {
+        @apply mr-8;
+      }
+
+      .rightIcon {
+        @apply ml-8 rotate-180;
+      }
+    }
+  }
+}

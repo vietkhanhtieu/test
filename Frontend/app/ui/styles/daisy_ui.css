@@ -1,0 +1,73 @@
+/*==========================================================================
+  Button
+==========================================================================*/
+.dy-btn {
+  @apply no-animation;
+}
+
+.dy-btn-primary {
+  --fallback-pc: white;
+}
+
+.dy-btn-transparent {
+  @apply bg-transparent shadow-none hover:bg-transparent;
+}
+
+.dy-btn:focus-visible {
+  @apply outline-0;
+}
+
+.dy-btn:disabled,
+.dy-btn:disabled:hover {
+  @apply border-0;
+}
+
+.dy-dropdown-content .dy-btn:disabled {
+  @apply bg-mercury text-white;
+}
+
+/*==========================================================================
+  Input
+==========================================================================*/
+.dy-input,
+.dy-input:focus,
+.dy-input:focus-within {
+  @apply outline-0 outline-offset-0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  @apply m-0;
+
+  -webkit-appearance: none;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/*==========================================================================
+  Tab
+==========================================================================*/
+.dy-tab {
+  --tab-color: var(--abbey);
+}
+
+.dy-radio:checked {
+  box-shadow:
+    0 0 0 1px var(--fallback-b1, oklch(var(--b1) / 1)) inset,
+    0 0 0 1px var(--fallback-b1, oklch(var(--b1) / 1)) inset;
+}
+
+.dy-radio {
+  border-width: 1.2px;
+  height: 14px;
+  width: 13.82px;
+  border-color: #ff5a00;
+}
+
+.dy-radio:focus {
+  outline: none;
+}

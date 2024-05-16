@@ -1,0 +1,6 @@
+@KLTN_HostAddress = http://localhost:5290
+
+GET {{KLTN_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

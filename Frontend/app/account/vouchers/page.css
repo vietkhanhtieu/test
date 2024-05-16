@@ -1,0 +1,12 @@
+/* Overrides */
+.account-vouchers .dy-tabs-boxed .dy-tab-active:not(.dy-tab-disabled):not([disabled]) {
+  @apply text-white;
+}
+
+.account-vouchers .dy-tab-active {
+  @apply font-medium;
+}
+
+.account-vouchers .dy-tabs-boxed .dy-tab {
+  @apply rounded-full;
+}

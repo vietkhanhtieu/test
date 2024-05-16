@@ -1,0 +1,10 @@
+.vs
+.idea
+.DS_Store
+/Backend/KLTN/KLTN/obj
+KLTN/.DS_Store
+**/bin/*
+**/obj/*
+**/Frontend/node_modules/*
+
+

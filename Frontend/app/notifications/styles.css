@@ -1,0 +1,16 @@
+/* Override */
+.notifications {
+  .dy-tab {
+    --tab-color: #a7a9ac;
+    @apply h-auto p-[14px_25px] leading-4;
+  }
+
+  .dy-tabs-bordered > .dy-tab {
+    @apply border-white;
+  }
+
+  .dy-tab.dy-tab-active:not(.dy-tab-disabled):not([disabled]) {
+    --tab-color: #ff6b00;
+    @apply mb-[-1px] border-b-2 border-primary pb-[15px];
+  }
+}

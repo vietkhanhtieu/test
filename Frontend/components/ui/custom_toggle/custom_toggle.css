@@ -1,0 +1,7 @@
+.custom-toggle {
+  @apply dy-toggle h-[22px] w-[43px] border-alto bg-white [--handleoffset:20.5px] [--tglbg:#d9d9d9] hover:bg-white;
+}
+
+.custom-toggle:checked {
+  @apply border-primary [--tglbg:#ff6b00];
+}

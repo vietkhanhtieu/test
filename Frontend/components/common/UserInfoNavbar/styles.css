@@ -1,0 +1,34 @@
+.cart-icon-default {
+  @apply absolute;
+}
+
+.cart-button-text-container {
+  @apply absolute z-10 flex items-center justify-center rounded-full bg-white text-primary;
+}
+
+.cart-button-text {
+  @apply flex items-center justify-center px-0.5 py-1 text-12 leading-[14px];
+}
+
+.user-info-text-line-height {
+  @apply leading-[1.172em];
+}
+
+.menu-chevron-up {
+  @apply absolute right-6 top-1.5 h-0 w-0 border-x-[6px] border-b-[6px] border-solid border-x-transparent border-b-popover;
+}
+
+.cart-chevron-up {
+  @apply absolute -top-1.5 right-8 h-0 w-0 border-x-[6px] border-b-[6px] border-solid border-x-transparent border-b-popover;
+}
+
+.cart-amount {
+  box-shadow:
+    0px -6.65px 5.32px 0px rgba(0, 0, 0, 0.03),
+    0px -2.77px 2.214px 0px rgba(0, 0, 0, 0.02);
+}
+
+div[data-radix-popper-content-wrapper] {
+  z-index: 51 !important;
+  left: -20px !important;
+}

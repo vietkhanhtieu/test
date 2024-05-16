@@ -1,0 +1,40 @@
+@tailwind components;
+
+@layer components {
+  .feedbacksWrapper {
+    @apply my-8 w-full;
+
+    .carouselItemWrapper {
+      @apply relative grid grid-cols-1 gap-y-8 md:grid-cols-3 md:gap-y-[2px];
+
+      &::before {
+        @apply absolute left-8 top-8 hidden w-full bg-primary md:block;
+        content: '';
+      }
+    }
+
+    .feedbackWrapper {
+      @apply relative z-10 grow basis-0 bg-white px-16;
+
+      .avatarWrapper {
+        @apply mx-auto mb-2 h-20 w-20;
+      }
+
+      .name {
+        @apply text-center font-bold;
+      }
+
+      .content {
+        @apply text-center text-[14px];
+      }
+
+      .dateAndSource {
+        @apply mt-[10px] text-center text-[14px];
+
+        .source {
+          @apply font-bold;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1157 @@
+{
+  "status": 200,
+  "message": "Successfully",
+  "data": {
+    "list_product": {
+      "current_page": 1,
+      "data": [
+        {
+          "maSanPhamEc": "158755",
+          "maSanPhamGonsa": "61000158",
+          "tenSanPham": "PARACETAMOL KABI 1000 H1X100ML",
+          "tenThuongMai": "PARACETAMOL KABI 1000 H1X100ML (Chai x 100ml)",
+          "nhaSanXuat": {
+            "maNhaSanXuat": null,
+            "tenNhaSanXuat": "Công Ty Cổ Phần Fresenius Kabi Việt Nam",
+            "tenVietGon": "Fresenius Kabi",
+            "nuocSanXuat": ""
+          },
+          "nhomDieuTri": {
+            "maNhomDieuTri": 1000,
+            "tenNhomDieuTri": "KHÁNG VIÊM - GIẢM ĐAU - HẠ SỐT"
+          },
+          "nuocSanXuat": {
+            "maNuocSanXuat": 7004,
+            "tenNuocSanXuat": "Việt Nam"
+          },
+          "tenHoatChat": "Paracetamol",
+          "quyCachDongGoi": "Chai x 100ml",
+          "hoatChatDtos": [
+            {
+              "maHoatChat": "8240",
+              "tenHoatChat": "Paracetamol"
+            }
+          ],
+          "dangBaoChe": {
+            "maDangBaoChe": 258157,
+            "tenDangBaoCheCap1": null,
+            "tenDangBaoCheCap2": "Dung dịch",
+            "tenDangBaoCheCap3": "Dung dịch tiêm truyền"
+          },
+          "donViTinh": "Chai",
+          "giaBan": 0,
+          "giaSale": 1000,
+          "hinhAnh": null,
+          "hoatChatHamLuong": "Paracetamol 1000mg/100ml",
+          "id": 158755,
+          "title": "PARACETAMOL KABI 1000 H1X100ML",
+          "supplier": {
+            "id": 1940,
+            "name": "Gonsa Phân Phối",
+            "term_id": 1940,
+            "icon": null
+          },
+          "active_element": "Paracetamol",
+          "packing": "Chai",
+          "regular_price": 7403,
+          "sale_price": 0,
+          "discout": null,
+          "stock_quantity": 65,
+          "stock_status": "instock",
+          "in_cart": false,
+          "in_wishlist": false,
+          "coupon": true,
+          "promotion": [],
+          "tags": [
+            {
+              "id": 166,
+              "tag": "CX_CT 117 - 118 B",
+              "discount_type": "wdr_cart_discount",
+              "update_category_at": "2024-01-30T18:23:31.000000Z"
+            },
+            {
+              "id": null,
+              "tag": "promotion",
+              "update_category_at ": null
+            },
+            {
+              "id": 208,
+              "tag": "new",
+              "update_category_at ": "2024-02-28T07:31:35.000000Z"
+            }
+          ],
+          "total_sales": 49,
+          "public_at": "2024-01-27 20:57:48",
+          "updated_at": "2024-03-06T02:47:00.000000Z",
+          "hangDatengan": false,
+          "bound": ["inland", "foreign"],
+          "sale_limit": null,
+          "due_date": "05122025",
+          "priority": 13
+        },
+        {
+          "maSanPhamEc": "195274",
+          "maSanPhamGonsa": "61000521",
+          "tenSanPham": "FREMEDOL EXTRA H10X10V",
+          "tenThuongMai": "FREMEDOL EXTRA H10X10V (Hộp 10 vỉ x 10 viên)",
+          "nhaSanXuat": {
+            "maNhaSanXuat": null,
+            "tenNhaSanXuat": "Công Ty Cổ Phần Dược Phẩm Fremed",
+            "tenVietGon": "Fremed",
+            "nuocSanXuat": ""
+          },
+          "nhomDieuTri": {
+            "maNhomDieuTri": 1000,
+            "tenNhomDieuTri": "KHÁNG VIÊM - GIẢM ĐAU - HẠ SỐT"
+          },
+          "nuocSanXuat": {
+            "maNuocSanXuat": 7004,
+            "tenNuocSanXuat": "Việt Nam"
+          },
+          "tenHoatChat": "Paracetamol, Caffeine",
+          "quyCachDongGoi": "Hộp 10 vỉ x 10 viên",
+          "hoatChatDtos": [
+            {
+              "maHoatChat": "8240",
+              "tenHoatChat": "Paracetamol"
+            },
+            {
+              "maHoatChat": "9784",
+              "tenHoatChat": "Caffeine"
+            }
+          ],
+          "dangBaoChe": {
+            "maDangBaoChe": null,
+            "tenDangBaoCheCap1": null,
+            "tenDangBaoCheCap2": "Viên nén",
+            "tenDangBaoCheCap3": "Viên Nén Bao Phim"
+          },
+          "donViTinh": "Viên",
+          "giaBan": 0,
+          "giaSale": 5000,
+          "hinhAnh": null,
+          "hoatChatHamLuong": "Paracetamol 500mg; Caffeine 65mg",
+          "id": 195274,
+          "title": "FREMEDOL EXTRA H10X10V",
+          "supplier": {
+            "id": 1940,
+            "name": "Gonsa Phân Phối",
+            "term_id": 1940,
+            "icon": null
+          },
+          "active_element": "Paracetamol, Caffeine",
+          "packing": "Viên",
+          "regular_price": 100000,
+          "sale_price": 0,
+          "discout": null,
+          "stock_quantity": 29,
+          "stock_status": "instock",
+          "in_cart": false,
+          "in_wishlist": true,
+          "coupon": false,
+          "promotion": [],
+          "tags": [
+            {
+              "id": 166,
+              "tag": "CX_CT 117 - 118 B",
+              "discount_type": "wdr_cart_discount",
+              "update_category_at": "2024-01-30T18:23:31.000000Z"
+            },
+            {
+              "id": null,
+              "tag": "promotion",
+              "update_category_at ": null
+            },
+            {
+              "id": 208,
+              "tag": "new",
+              "update_category_at ": "2024-03-01T01:08:35.000000Z"
+            },
+            {
+              "id": 11759,
+              "tag": "highlight",
+              "update_category_at": "2024-02-28T07:31:35.000000Z"
+            }
+          ],
+          "total_sales": 141,
+          "public_at": "2024-02-02 09:58:50",
+          "updated_at": "2024-03-12T04:47:41.000000Z",
+          "hangDatengan": false,
+          "bound": ["inland", "foreign"],
+          "sale_limit": null,
+          "due_date": "16102025",
+          "priority": 6
+        },
+        {
+          "maSanPhamEc": "158740",
+          "maSanPhamGonsa": "61000521",
+          "tenSanPham": "FREMEDOL EXTRA H10X10V",
+          "tenThuongMai": "FREMEDOL EXTRA H10X10V (Hộp 10 vỉ x 10 viên)",
+          "nhaSanXuat": {
+            "maNhaSanXuat": null,
+            "tenNhaSanXuat": "Công Ty Cổ Phần Dược Phẩm Fremed",
+            "tenVietGon": "Fremed",
+            "nuocSanXuat": ""
+          },
+          "nhomDieuTri": {
+            "maNhomDieuTri": 1000,
+            "tenNhomDieuTri": "KHÁNG VIÊM - GIẢM ĐAU - HẠ SỐT"
+          },
+          "nuocSanXuat": {
+            "maNuocSanXuat": 7004,
+            "tenNuocSanXuat": "Việt Nam"
+          },
+          "tenHoatChat": "Paracetamol, Caffeine",
+          "quyCachDongGoi": "Hộp 10 vỉ x 10 viên",
+          "hoatChatDtos": [
+            {
+              "maHoatChat": "8240",
+              "tenHoatChat": "Paracetamol"
+            },
+            {
+              "maHoatChat": "9784",
+              "tenHoatChat": "Caffeine"
+            }
+          ],
+          "dangBaoChe": {
+            "maDangBaoChe": null,
+            "tenDangBaoCheCap1": null,
+            "tenDangBaoCheCap2": "Viên nén",
+            "tenDangBaoCheCap3": "Viên Nén Bao Phim"
+          },
+          "donViTinh": "Viên",
+          "giaBan": 0,
+          "giaSale": 4000,
+          "hinhAnh": null,
+          "hoatChatHamLuong": "Paracetamol 500mg; Caffeine 65mg",
+          "id": 158740,
+          "title": "FREMEDOL EXTRA H10X10V",
+          "supplier": {
+            "id": 1940,
+            "name": "Gonsa Phân Phối",
+            "term_id": 1940,
+            "icon": null
+          },
+          "active_element": "Paracetamol, Caffeine",
+          "packing": "Viên",
+          "regular_price": 100000,
+          "sale_price": 0,
+          "discout": null,
+          "stock_quantity": 123,
+          "stock_status": "instock",
+          "in_cart": false,
+          "in_wishlist": false,
+          "coupon": false,
+          "promotion": [],
+          "tags": [
+            {
+              "id": 166,
+              "tag": "CX_CT 117 - 118 B",
+              "discount_type": "wdr_cart_discount",
+              "update_category_at": "2024-01-30T18:23:31.000000Z"
+            },
+            {
+              "id": null,
+              "tag": "promotion",
+              "update_category_at ": null
+            }
+          ],
+          "total_sales": 0,
+          "public_at": "2024-01-27 20:57:35",
+          "updated_at": "2024-03-12T02:49:16.000000Z",
+          "hangDatengan": false,
+          "bound": ["inland", "foreign"],
+          "sale_limit": null,
+          "due_date": null,
+          "priority": null
+        },
+        {
+          "maSanPhamEc": "157921",
+          "maSanPhamGonsa": "61000521",
+          "tenSanPham": "FREMEDOL EXTRA H10X10V",
+          "tenThuongMai": "FREMEDOL EXTRA H10X10V (Hộp 10 vỉ x 10 viên)",
+          "nhaSanXuat": {
+            "maNhaSanXuat": null,
+            "tenNhaSanXuat": "Công Ty Cổ Phần Dược Phẩm Fremed",
+            "tenVietGon": "Fremed",
+            "nuocSanXuat": ""
+          },
+          "nhomDieuTri": {
+            "maNhomDieuTri": 1000,
+            "tenNhomDieuTri": "KHÁNG VIÊM - GIẢM ĐAU - HẠ SỐT"
+          },
+          "nuocSanXuat": {
+            "maNuocSanXuat": 7004,
+            "tenNuocSanXuat": "Việt Nam"
+          },
+          "tenHoatChat": "Paracetamol, Caffeine",
+          "quyCachDongGoi": "Hộp 10 vỉ x 10 viên",
+          "hoatChatDtos": [
+            {
+              "maHoatChat": "8240",
+              "tenHoatChat": "Paracetamol"
+            },
+            {
+              "maHoatChat": "9784",
+              "tenHoatChat": "Caffeine"
+            }
+          ],
+          "dangBaoChe": {
+            "maDangBaoChe": null,
+            "tenDangBaoCheCap1": null,
+            "tenDangBaoCheCap2": "Viên nén",
+            "tenDangBaoCheCap3": "Viên Nén Bao Phim"
+          },
+          "donViTinh": "Viên",
+          "giaBan": 0,
+          "giaSale": 1000,
+          "hinhAnh": null,
+          "hoatChatHamLuong": "Paracetamol 500mg; Caffeine 65mg",
+          "id": 157921,
+          "title": "FREMEDOL EXTRA H10X10V",
+          "supplier": {
+            "id": 185,
+            "name": "GONSA Thương mại",
+            "term_id": 185,
+            "icon": null
+          },
+          "active_element": "Paracetamol, Caffeine",
+          "packing": "Viên",
+          "regular_price": 100000,
+          "sale_price": 0,
+          "discout": null,
+          "stock_quantity": 457,
+          "stock_status": "instock",
+          "in_cart": false,
+          "in_wishlist": false,
+          "coupon": false,
+          "promotion": [],
+          "tags": [
+            {
+              "id": 166,
+              "tag": "CX_CT 117 - 118 B",
+              "discount_type": "wdr_cart_discount",
+              "update_category_at": "2024-01-30T18:23:31.000000Z"
+            },
+            {
+              "id": null,
+              "tag": "promotion",
+              "update_category_at ": null
+            },
+            {
+              "id": 208,
+              "tag": "new",
+              "update_category_at ": "2024-02-28T07:31:35.000000Z"
+            }
+          ],
+          "total_sales": 44,
+          "public_at": "2024-01-27 19:54:56",
+          "updated_at": "2024-03-11T07:33:42.000000Z",
+          "hangDatengan": false,
+          "bound": ["inland", "foreign"],
+          "sale_limit": null,
+          "due_date": null,
+          "priority": 14
+        },
+        {
+          "maSanPhamEc": "56031",
+          "maSanPhamGonsa": "61000040",
+          "tenSanPham": "PARTAMOL TAB. 500 H10X10V",
+          "tenThuongMai": "PARTAMOL TAB. 500 H10X10V (Hộp 10 vỉ x 10 viên)",
+          "nhaSanXuat": {
+            "maNhaSanXuat": null,
+            "tenNhaSanXuat": "Công Ty TNHH Liên Doanh Stellapharm - Chi Nhánh 1",
+            "tenVietGon": "Stellapharm",
+            "nuocSanXuat": ""
+          },
+          "nhomDieuTri": {
+            "maNhomDieuTri": 1000,
+            "tenNhomDieuTri": "KHÁNG VIÊM - GIẢM ĐAU - HẠ SỐT"
+          },
+          "nuocSanXuat": {
+            "maNuocSanXuat": 7004,
+            "tenNuocSanXuat": "Việt Nam"
+          },
+          "tenHoatChat": "Paracetamol",
+          "quyCachDongGoi": "Hộp 10 vỉ x 10 viên",
+          "hoatChatDtos": [
+            {
+              "maHoatChat": "8240",
+              "tenHoatChat": "Paracetamol"
+            }
+          ],
+          "dangBaoChe": {
+            "maDangBaoChe": 256130,
+            "tenDangBaoCheCap1": null,
+            "tenDangBaoCheCap2": "Viên nén",
+            "tenDangBaoCheCap3": "Viên nén không bao"
+          },
+          "donViTinh": "Viên",
+          "giaBan": 0,
+          "giaSale": 1000,
+          "hinhAnh": null,
+          "hoatChatHamLuong": "Paracetamol 500mg",
+          "id": 56031,
+          "title": "PARTAMOL TAB. 500 H10X10V",
+          "supplier": {
+            "id": 21,
+            "name": "Công Ty Cổ Phần MEDSI",
+            "term_id": 21,
+            "icon": "https://alpha.trungtamduocpham.com/wp-content/uploads/2024/03/download-1.jpg"
+          },
+          "active_element": "Paracetamol",
+          "packing": "Viên",
+          "regular_price": 58000,
+          "sale_price": 0,
+          "discout": null,
+          "stock_quantity": 454,
+          "stock_status": "instock",
+          "in_cart": false,
+          "in_wishlist": false,
+          "coupon": false,
+          "promotion": [],
+          "tags": [
+            {
+              "id": 166,
+              "tag": "CX_CT 117 - 118 B",
+              "discount_type": "wdr_cart_discount",
+              "update_category_at": "2024-01-30T18:23:31.000000Z"
+            },
+            {
+              "id": null,
+              "tag": "promotion",
+              "update_category_at ": null
+            }
+          ],
+          "total_sales": 47,
+          "public_at": "2023-12-07 09:53:40",
+          "updated_at": "2024-03-09T12:34:06.000000Z",
+          "hangDatengan": true,
+          "bound": ["inland", "foreign"],
+          "sale_limit": null,
+          "due_date": null,
+          "priority": null
+        },
+        {
+          "maSanPhamEc": "157901",
+          "maSanPhamGonsa": "61000040",
+          "tenSanPham": "PARTAMOL TAB. 500 H10X10V",
+          "tenThuongMai": "PARTAMOL TAB. 500 H10X10V (Hộp 10 vỉ x 10 viên)",
+          "nhaSanXuat": {
+            "maNhaSanXuat": null,
+            "tenNhaSanXuat": "Công Ty TNHH Liên Doanh Stellapharm - Chi Nhánh 1",
+            "tenVietGon": "Stellapharm",
+            "nuocSanXuat": ""
+          },
+          "nhomDieuTri": {
+            "maNhomDieuTri": 1000,
+            "tenNhomDieuTri": "KHÁNG VIÊM - GIẢM ĐAU - HẠ SỐT"
+          },
+          "nuocSanXuat": {
+            "maNuocSanXuat": 7004,
+            "tenNuocSanXuat": "Việt Nam"
+          },
+          "tenHoatChat": "Paracetamol",
+          "quyCachDongGoi": "Hộp 10 vỉ x 10 viên",
+          "hoatChatDtos": [
+            {
+              "maHoatChat": "8240",
+              "tenHoatChat": "Paracetamol"
+            }
+          ],
+          "dangBaoChe": {
+            "maDangBaoChe": 256130,
+            "tenDangBaoCheCap1": null,
+            "tenDangBaoCheCap2": "Viên nén",
+            "tenDangBaoCheCap3": "Viên nén không bao"
+          },
+          "donViTinh": "Viên",
+          "giaBan": 0,
+          "giaSale": 1000,
+          "hinhAnh": null,
+          "hoatChatHamLuong": "Paracetamol 500mg",
+          "id": 157901,
+          "title": "PARTAMOL TAB. 500 H10X10V",
+          "supplier": {
+            "id": 185,
+            "name": "GONSA Thương mại",
+            "term_id": 185,
+            "icon": null
+          },
+          "active_element": "Paracetamol",
+          "packing": "Viên",
+          "regular_price": 58000,
+          "sale_price": 0,
+          "discout": null,
+          "stock_quantity": 498,
+          "stock_status": "instock",
+          "in_cart": false,
+          "in_wishlist": false,
+          "coupon": false,
+          "promotion": [],
+          "tags": [
+            {
+              "id": 166,
+              "tag": "CX_CT 117 - 118 B",
+              "discount_type": "wdr_cart_discount",
+              "update_category_at": "2024-01-30T18:23:31.000000Z"
+            },
+            {
+              "id": null,
+              "tag": "promotion",
+              "update_category_at ": null
+            }
+          ],
+          "total_sales": 2,
+          "public_at": "2024-01-27 19:54:40",
+          "updated_at": "2024-03-01T03:56:27.000000Z",
+          "hangDatengan": false,
+          "bound": ["inland", "foreign"],
+          "sale_limit": null,
+          "due_date": null,
+          "priority": null
+        },
+        {
+          "maSanPhamEc": "158741",
+          "maSanPhamGonsa": "61000520",
+          "tenSanPham": "FREMEDOL 650 H10X10V",
+          "tenThuongMai": "FREMEDOL 650 H10X10V (Hộp 10 vỉ x 10 viên)",
+          "nhaSanXuat": {
+            "maNhaSanXuat": null,
+            "tenNhaSanXuat": "Công Ty Cổ Phần Dược Phẩm Fremed",
+            "tenVietGon": "Fremed",
+            "nuocSanXuat": ""
+          },
+          "nhomDieuTri": {
+            "maNhomDieuTri": 1000,
+            "tenNhomDieuTri": "KHÁNG VIÊM - GIẢM ĐAU - HẠ SỐT"
+          },
+          "nuocSanXuat": {
+            "maNuocSanXuat": 7004,
+            "tenNuocSanXuat": "Việt Nam"
+          },
+          "tenHoatChat": "Paracetamol",
+          "quyCachDongGoi": "Hộp 10 vỉ x 10 viên",
+          "hoatChatDtos": [
+            {
+              "maHoatChat": "8240",
+              "tenHoatChat": "Paracetamol"
+            }
+          ],
+          "dangBaoChe": {
+            "maDangBaoChe": null,
+            "tenDangBaoCheCap1": null,
+            "tenDangBaoCheCap2": "Viên nén",
+            "tenDangBaoCheCap3": "Viên Nén Bao Phim"
+          },
+          "donViTinh": "Viên",
+          "giaBan": 0,
+          "giaSale": 1000,
+          "hinhAnh": null,
+          "hoatChatHamLuong": "Paracetamol 650mg",
+          "id": 158741,
+          "title": "FREMEDOL 650 H10X10V",
+          "supplier": {
+            "id": 1940,
+            "name": "Gonsa Phân Phối",
+            "term_id": 1940,
+            "icon": null
+          },
+          "active_element": "Paracetamol",
+          "packing": "Viên",
+          "regular_price": 80000,
+          "sale_price": 0,
+          "discout": null,
+          "stock_quantity": 498,
+          "stock_status": "instock",
+          "in_cart": false,
+          "in_wishlist": false,
+          "coupon": false,
+          "promotion": [],
+          "tags": [
+            {
+              "id": 166,
+              "tag": "CX_CT 117 - 118 B",
+              "discount_type": "wdr_cart_discount",
+              "update_category_at": "2024-01-30T18:23:31.000000Z"
+            },
+            {
+              "id": null,
+              "tag": "promotion",
+              "update_category_at ": null
+            }
+          ],
+          "total_sales": 2,
+          "public_at": "2024-01-27 20:57:36",
+          "updated_at": "2024-03-01T03:08:58.000000Z",
+          "hangDatengan": false,
+          "bound": ["inland", "foreign"],
+          "sale_limit": null,
+          "due_date": null,
+          "priority": null
+        },
+        {
+          "maSanPhamEc": "158646",
+          "maSanPhamGonsa": "61000467",
+          "tenSanPham": "XỊT MŨI SPEROVID NGƯỜI LỚN H1X10ML",
+          "tenThuongMai": "XỊT MŨI SPEROVID NGƯỜI LỚN H1X10ML (Hộp 1 chai x 10ml)",
+          "nhaSanXuat": {
+            "maNhaSanXuat": null,
+            "tenNhaSanXuat": "Công Ty Cổ Phần Dược Phẩm Việt ( Đông Dược Việt )",
+            "tenVietGon": "Đông Dược Việt",
+            "nuocSanXuat": ""
+          },
+          "nhomDieuTri": {
+            "maNhomDieuTri": 474,
+            "tenNhomDieuTri": "SẢN PHẨM DINH DƯỠNG - KHỬ TRÙNG - VẬT TƯ Y TẾ KHÁC"
+          },
+          "nuocSanXuat": {
+            "maNuocSanXuat": 7004,
+            "tenNuocSanXuat": "Việt Nam"
+          },
+          "tenHoatChat": "hương bạc hà tự nhiên, muối, methylparaben, Nước cất, acid citric, SPOR-COV",
+          "quyCachDongGoi": "Hộp 1 chai x 10ml",
+          "hoatChatDtos": [
+            {
+              "maHoatChat": "10064",
+              "tenHoatChat": "hương bạc hà tự nhiên"
+            },
+            {
+              "maHoatChat": "10167",
+              "tenHoatChat": "muối"
+            },
+            {
+              "maHoatChat": "7629",
+              "tenHoatChat": "methylparaben"
+            },
+            {
+              "maHoatChat": "7716",
+              "tenHoatChat": "Nước cất"
+            },
+            {
+              "maHoatChat": "8612",
+              "tenHoatChat": "acid citric"
+            },
+            {
+              "maHoatChat": "9832",
+              "tenHoatChat": "SPOR-COV"
+            }
+          ],
+          "dangBaoChe": {
+            "maDangBaoChe": 1080612,
+            "tenDangBaoCheCap1": null,
+            "tenDangBaoCheCap2": "Dung dịch",
+            "tenDangBaoCheCap3": "Dung dịch xịt mũi"
+          },
+          "donViTinh": "Chai",
+          "giaBan": 0,
+          "giaSale": 1000,
+          "hinhAnh": null,
+          "hoatChatHamLuong": "SPOR-COV, Nước cất, muối, acid citric, methylparaben, hương bạc hà tự nhiên",
+          "id": 158646,
+          "title": "XỊT MŨI SPEROVID NGƯỜI LỚN H1X10ML",
+          "supplier": {
+            "id": 1940,
+            "name": "Gonsa Phân Phối",
+            "term_id": 1940,
+            "icon": null
+          },
+          "active_element": "hương bạc hà tự nhiên, muối, methylparaben, Nước cất, acid citric, SPOR-COV",
+          "packing": "Chai",
+          "regular_price": 270000,
+          "sale_price": 0,
+          "discout": null,
+          "stock_quantity": 500,
+          "stock_status": "instock",
+          "in_cart": false,
+          "in_wishlist": false,
+          "coupon": true,
+          "promotion": [],
+          "tags": [
+            {
+              "id": 166,
+              "tag": "CX_CT 117 - 118 B",
+              "discount_type": "wdr_cart_discount",
+              "update_category_at": "2024-01-30T18:23:31.000000Z"
+            },
+            {
+              "id": null,
+              "tag": "promotion",
+              "update_category_at ": null
+            }
+          ],
+          "total_sales": 0,
+          "public_at": "2024-01-27 20:56:17",
+          "updated_at": "2024-02-28T03:39:41.000000Z",
+          "hangDatengan": false,
+          "bound": ["inland", "foreign"],
+          "sale_limit": null,
+          "due_date": null,
+          "priority": null
+        },
+        {
+          "maSanPhamEc": "65041",
+          "maSanPhamGonsa": "61000040",
+          "tenSanPham": "PARTAMOL TAB. 500 H10X10V",
+          "tenThuongMai": "PARTAMOL TAB. 500 H10X10V (Hộp 10 vỉ x 10 viên)",
+          "nhaSanXuat": {
+            "maNhaSanXuat": null,
+            "tenNhaSanXuat": "Công Ty TNHH Liên Doanh Stellapharm - Chi Nhánh 1",
+            "tenVietGon": "Stellapharm",
+            "nuocSanXuat": ""
+          },
+          "nhomDieuTri": {
+            "maNhomDieuTri": 1000,
+            "tenNhomDieuTri": "KHÁNG VIÊM - GIẢM ĐAU - HẠ SỐT"
+          },
+          "nuocSanXuat": {
+            "maNuocSanXuat": 7004,
+            "tenNuocSanXuat": "Việt Nam"
+          },
+          "tenHoatChat": "Paracetamol",
+          "quyCachDongGoi": "Hộp 10 vỉ x 10 viên",
+          "hoatChatDtos": [
+            {
+              "maHoatChat": "8240",
+              "tenHoatChat": "Paracetamol"
+            }
+          ],
+          "dangBaoChe": {
+            "maDangBaoChe": 256130,
+            "tenDangBaoCheCap1": null,
+            "tenDangBaoCheCap2": "Viên nén",
+            "tenDangBaoCheCap3": "Viên nén không bao"
+          },
+          "donViTinh": "Viên",
+          "giaBan": 0,
+          "giaSale": 1000,
+          "hinhAnh": null,
+          "hoatChatHamLuong": "Paracetamol 500mg",
+          "id": 65041,
+          "title": "PARTAMOL TAB. 500 H10X10V",
+          "supplier": {
+            "id": 1013,
+            "name": "westhanh",
+            "term_id": 1013,
+            "icon": null
+          },
+          "active_element": "Paracetamol",
+          "packing": "Viên",
+          "regular_price": 48000,
+          "sale_price": 0,
+          "discout": null,
+          "stock_quantity": 479,
+          "stock_status": "instock",
+          "in_cart": false,
+          "in_wishlist": false,
+          "coupon": false,
+          "promotion": [],
+          "tags": [
+            {
+              "id": 166,
+              "tag": "CX_CT 117 - 118 B",
+              "discount_type": "wdr_cart_discount",
+              "update_category_at": "2024-01-30T18:23:31.000000Z"
+            },
+            {
+              "id": null,
+              "tag": "promotion",
+              "update_category_at ": null
+            }
+          ],
+          "total_sales": 194,
+          "public_at": "2023-12-10 15:23:50",
+          "updated_at": "2024-02-26T01:32:23.000000Z",
+          "hangDatengan": true,
+          "bound": ["inland", "foreign"],
+          "sale_limit": null,
+          "due_date": null,
+          "priority": null
+        },
+        {
+          "maSanPhamEc": "158742",
+          "maSanPhamGonsa": "61000519",
+          "tenSanPham": "FREMEDOL 500 H10X10V",
+          "tenThuongMai": "FREMEDOL 500 H10X10V (Hộp 10 vỉ x 10 viên)",
+          "nhaSanXuat": {
+            "maNhaSanXuat": null,
+            "tenNhaSanXuat": "Công Ty Cổ Phần Dược Phẩm Fremed",
+            "tenVietGon": "Fremed",
+            "nuocSanXuat": ""
+          },
+          "nhomDieuTri": {
+            "maNhomDieuTri": 1000,
+            "tenNhomDieuTri": "KHÁNG VIÊM - GIẢM ĐAU - HẠ SỐT"
+          },
+          "nuocSanXuat": {
+            "maNuocSanXuat": 7004,
+            "tenNuocSanXuat": "Việt Nam"
+          },
+          "tenHoatChat": "Paracetamol",
+          "quyCachDongGoi": "Hộp 10 vỉ x 10 viên",
+          "hoatChatDtos": [
+            {
+              "maHoatChat": "8240",
+              "tenHoatChat": "Paracetamol"
+            }
+          ],
+          "dangBaoChe": {
+            "maDangBaoChe": null,
+            "tenDangBaoCheCap1": null,
+            "tenDangBaoCheCap2": "Viên nén",
+            "tenDangBaoCheCap3": "Viên Nén Bao Phim"
+          },
+          "donViTinh": "Viên",
+          "giaBan": 0,
+          "giaSale": 1000,
+          "hinhAnh": null,
+          "hoatChatHamLuong": "Paracetamol 500mg",
+          "id": 158742,
+          "title": "FREMEDOL 500 H10X10V",
+          "supplier": {
+            "id": 1940,
+            "name": "Gonsa Phân Phối",
+            "term_id": 1940,
+            "icon": null
+          },
+          "active_element": "Paracetamol",
+          "packing": "Viên",
+          "regular_price": 70000,
+          "sale_price": 0,
+          "discout": null,
+          "stock_quantity": 498,
+          "stock_status": "instock",
+          "in_cart": false,
+          "in_wishlist": false,
+          "coupon": false,
+          "promotion": [],
+          "tags": [
+            {
+              "id": 166,
+              "tag": "CX_CT 117 - 118 B",
+              "discount_type": "wdr_cart_discount",
+              "update_category_at": "2024-01-30T18:23:31.000000Z"
+            },
+            {
+              "id": null,
+              "tag": "promotion",
+              "update_category_at ": null
+            }
+          ],
+          "total_sales": 2,
+          "public_at": "2024-01-27 20:57:37",
+          "updated_at": "2024-02-06T10:02:48.000000Z",
+          "hangDatengan": false,
+          "bound": ["inland", "foreign"],
+          "sale_limit": null,
+          "due_date": null,
+          "priority": null
+        },
+        {
+          "maSanPhamEc": "157905",
+          "maSanPhamGonsa": "61000467",
+          "tenSanPham": "XỊT MŨI SPEROVID NGƯỜI LỚN H1X10ML",
+          "tenThuongMai": "XỊT MŨI SPEROVID NGƯỜI LỚN H1X10ML (Hộp 1 chai x 10ml)",
+          "nhaSanXuat": {
+            "maNhaSanXuat": null,
+            "tenNhaSanXuat": "Công Ty Cổ Phần Dược Phẩm Việt ( Đông Dược Việt )",
+            "tenVietGon": "Đông Dược Việt",
+            "nuocSanXuat": ""
+          },
+          "nhomDieuTri": {
+            "maNhomDieuTri": 474,
+            "tenNhomDieuTri": "SẢN PHẨM DINH DƯỠNG - KHỬ TRÙNG - VẬT TƯ Y TẾ KHÁC"
+          },
+          "nuocSanXuat": {
+            "maNuocSanXuat": 7004,
+            "tenNuocSanXuat": "Việt Nam"
+          },
+          "tenHoatChat": "hương bạc hà tự nhiên, muối, methylparaben, Nước cất, acid citric, SPOR-COV",
+          "quyCachDongGoi": "Hộp 1 chai x 10ml",
+          "hoatChatDtos": [
+            {
+              "maHoatChat": "10064",
+              "tenHoatChat": "hương bạc hà tự nhiên"
+            },
+            {
+              "maHoatChat": "10167",
+              "tenHoatChat": "muối"
+            },
+            {
+              "maHoatChat": "7629",
+              "tenHoatChat": "methylparaben"
+            },
+            {
+              "maHoatChat": "7716",
+              "tenHoatChat": "Nước cất"
+            },
+            {
+              "maHoatChat": "8612",
+              "tenHoatChat": "acid citric"
+            },
+            {
+              "maHoatChat": "9832",
+              "tenHoatChat": "SPOR-COV"
+            }
+          ],
+          "dangBaoChe": {
+            "maDangBaoChe": 1080612,
+            "tenDangBaoCheCap1": null,
+            "tenDangBaoCheCap2": "Dung dịch",
+            "tenDangBaoCheCap3": "Dung dịch xịt mũi"
+          },
+          "donViTinh": "Chai",
+          "giaBan": 0,
+          "giaSale": 1000,
+          "hinhAnh": null,
+          "hoatChatHamLuong": "SPOR-COV, Nước cất, muối, acid citric, methylparaben, hương bạc hà tự nhiên",
+          "id": 157905,
+          "title": "XỊT MŨI SPEROVID NGƯỜI LỚN H1X10ML",
+          "supplier": {
+            "id": 185,
+            "name": "GONSA Thương mại",
+            "term_id": 185,
+            "icon": null
+          },
+          "active_element": "hương bạc hà tự nhiên, muối, methylparaben, Nước cất, acid citric, SPOR-COV",
+          "packing": "Chai",
+          "regular_price": 250000,
+          "sale_price": 0,
+          "discout": null,
+          "stock_quantity": 497,
+          "stock_status": "instock",
+          "in_cart": false,
+          "in_wishlist": false,
+          "coupon": false,
+          "promotion": [],
+          "tags": [
+            {
+              "id": 166,
+              "tag": "CX_CT 117 - 118 B",
+              "discount_type": "wdr_cart_discount",
+              "update_category_at": "2024-01-30T18:23:31.000000Z"
+            },
+            {
+              "id": null,
+              "tag": "promotion",
+              "update_category_at ": null
+            }
+          ],
+          "total_sales": 3,
+          "public_at": "2024-01-27 19:54:44",
+          "updated_at": "2024-01-30T09:16:49.000000Z",
+          "hangDatengan": false,
+          "bound": ["inland", "foreign"],
+          "sale_limit": null,
+          "due_date": null,
+          "priority": null
+        },
+        {
+          "maSanPhamEc": "157914",
+          "maSanPhamGonsa": "61000467",
+          "tenSanPham": "XỊT MŨI SPEROVID NGƯỜI LỚN H1X10ML",
+          "tenThuongMai": "XỊT MŨI SPEROVID NGƯỜI LỚN H1X10ML (Hộp 1 chai x 10ml)",
+          "nhaSanXuat": {
+            "maNhaSanXuat": null,
+            "tenNhaSanXuat": "Công Ty Cổ Phần Dược Phẩm Việt ( Đông Dược Việt )",
+            "tenVietGon": "Đông Dược Việt",
+            "nuocSanXuat": ""
+          },
+          "nhomDieuTri": {
+            "maNhomDieuTri": 474,
+            "tenNhomDieuTri": "SẢN PHẨM DINH DƯỠNG - KHỬ TRÙNG - VẬT TƯ Y TẾ KHÁC"
+          },
+          "nuocSanXuat": {
+            "maNuocSanXuat": 7004,
+            "tenNuocSanXuat": "Việt Nam"
+          },
+          "tenHoatChat": "hương bạc hà tự nhiên, muối, methylparaben, Nước cất, acid citric, SPOR-COV",
+          "quyCachDongGoi": "Hộp 1 chai x 10ml",
+          "hoatChatDtos": [
+            {
+              "maHoatChat": "10064",
+              "tenHoatChat": "hương bạc hà tự nhiên"
+            },
+            {
+              "maHoatChat": "10167",
+              "tenHoatChat": "muối"
+            },
+            {
+              "maHoatChat": "7629",
+              "tenHoatChat": "methylparaben"
+            },
+            {
+              "maHoatChat": "7716",
+              "tenHoatChat": "Nước cất"
+            },
+            {
+              "maHoatChat": "8612",
+              "tenHoatChat": "acid citric"
+            },
+            {
+              "maHoatChat": "9832",
+              "tenHoatChat": "SPOR-COV"
+            }
+          ],
+          "dangBaoChe": {
+            "maDangBaoChe": 1080612,
+            "tenDangBaoCheCap1": null,
+            "tenDangBaoCheCap2": "Dung dịch",
+            "tenDangBaoCheCap3": "Dung dịch xịt mũi"
+          },
+          "donViTinh": "Chai",
+          "giaBan": 0,
+          "giaSale": 1000,
+          "hinhAnh": null,
+          "hoatChatHamLuong": "SPOR-COV, Nước cất, muối, acid citric, methylparaben, hương bạc hà tự nhiên",
+          "id": 157914,
+          "title": "XỊT MŨI SPEROVID NGƯỜI LỚN H1X10ML",
+          "supplier": {
+            "id": 185,
+            "name": "GONSA Thương mại",
+            "term_id": 185,
+            "icon": null
+          },
+          "active_element": "hương bạc hà tự nhiên, muối, methylparaben, Nước cất, acid citric, SPOR-COV",
+          "packing": "Chai",
+          "regular_price": 270000,
+          "sale_price": 0,
+          "discout": null,
+          "stock_quantity": 498,
+          "stock_status": "instock",
+          "in_cart": false,
+          "in_wishlist": false,
+          "coupon": false,
+          "promotion": [],
+          "tags": [
+            {
+              "id": 166,
+              "tag": "CX_CT 117 - 118 B",
+              "discount_type": "wdr_cart_discount",
+              "update_category_at": "2024-01-30T18:23:31.000000Z"
+            },
+            {
+              "id": null,
+              "tag": "promotion",
+              "update_category_at ": null
+            }
+          ],
+          "total_sales": 2,
+          "public_at": "2024-01-27 19:54:53",
+          "updated_at": "2024-01-30T04:49:55.000000Z",
+          "hangDatengan": false,
+          "bound": ["inland", "foreign"],
+          "sale_limit": null,
+          "due_date": null,
+          "priority": null
+        },
+        {
+          "maSanPhamEc": "56566",
+          "maSanPhamGonsa": "61000467",
+          "tenSanPham": "XỊT MŨI SPEROVID NGƯỜI LỚN H1X10ML",
+          "tenThuongMai": "XỊT MŨI SPEROVID NGƯỜI LỚN H1X10ML (Hộp 1 chai x 10ml)",
+          "nhaSanXuat": {
+            "maNhaSanXuat": null,
+            "tenNhaSanXuat": "Công Ty Cổ Phần Dược Phẩm Việt ( Đông Dược Việt )",
+            "tenVietGon": "Đông Dược Việt",
+            "nuocSanXuat": ""
+          },
+          "nhomDieuTri": {
+            "maNhomDieuTri": 474,
+            "tenNhomDieuTri": "SẢN PHẨM DINH DƯỠNG - KHỬ TRÙNG - VẬT TƯ Y TẾ KHÁC"
+          },
+          "nuocSanXuat": {
+            "maNuocSanXuat": 7004,
+            "tenNuocSanXuat": "Việt Nam"
+          },
+          "tenHoatChat": "hương bạc hà tự nhiên, muối, methylparaben, Nước cất, acid citric, SPOR-COV",
+          "quyCachDongGoi": "Hộp 1 chai x 10ml",
+          "hoatChatDtos": [
+            {
+              "maHoatChat": "10064",
+              "tenHoatChat": "hương bạc hà tự nhiên"
+            },
+            {
+              "maHoatChat": "10167",
+              "tenHoatChat": "muối"
+            },
+            {
+              "maHoatChat": "7629",
+              "tenHoatChat": "methylparaben"
+            },
+            {
+              "maHoatChat": "7716",
+              "tenHoatChat": "Nước cất"
+            },
+            {
+              "maHoatChat": "8612",
+              "tenHoatChat": "acid citric"
+            },
+            {
+              "maHoatChat": "9832",
+              "tenHoatChat": "SPOR-COV"
+            }
+          ],
+          "dangBaoChe": {
+            "maDangBaoChe": 1080612,
+            "tenDangBaoCheCap1": null,
+            "tenDangBaoCheCap2": "Dung dịch",
+            "tenDangBaoCheCap3": "Dung dịch xịt mũi"
+          },
+          "donViTinh": "Chai",
+          "giaBan": 0,
+          "giaSale": 1000,
+          "hinhAnh": null,
+          "hoatChatHamLuong": "SPOR-COV, Nước cất, muối, acid citric, methylparaben, hương bạc hà tự nhiên",
+          "id": 56566,
+          "title": "XỊT MŨI SPEROVID NGƯỜI LỚN H1X10ML",
+          "supplier": {
+            "id": 1940,
+            "name": "Gonsa Phân Phối",
+            "term_id": 1940,
+            "icon": null
+          },
+          "active_element": "hương bạc hà tự nhiên, muối, methylparaben, Nước cất, acid citric, SPOR-COV",
+          "packing": "Chai",
+          "regular_price": 250000,
+          "sale_price": 0,
+          "discout": null,
+          "stock_quantity": 500,
+          "stock_status": "outofstock",
+          "in_cart": false,
+          "in_wishlist": false,
+          "coupon": false,
+          "promotion": [],
+          "tags": [
+            {
+              "id": 166,
+              "tag": "CX_CT 117 - 118 B",
+              "discount_type": "wdr_cart_discount",
+              "update_category_at": "2024-01-30T18:23:31.000000Z"
+            },
+            {
+              "id": null,
+              "tag": "promotion",
+              "update_category_at ": null
+            }
+          ],
+          "total_sales": 0,
+          "public_at": "2023-12-07 10:57:54",
+          "updated_at": "2023-12-07T04:07:20.000000Z",
+          "hangDatengan": false,
+          "bound": ["inland", "foreign"],
+          "sale_limit": null,
+          "due_date": null,
+          "priority": null
+        }
+      ],
+      "from": 1,
+      "last_page": 1,
+      "per_page": 13,
+      "to": 13,
+      "total": 13,
+      "moreData": []
+    },
+    "most_searched": []
+  }
+}

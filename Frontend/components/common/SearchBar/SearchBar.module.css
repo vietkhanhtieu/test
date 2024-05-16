@@ -1,0 +1,36 @@
+@tailwind components;
+
+@layer components {
+  .SearchBar {
+    @apply rounded-full rounded-bl-none rounded-tl-none border-l-transparent pr-14 text-foreground;
+  }
+
+  .SearchIcon {
+    @apply absolute right-1 top-1 h-8 w-8 rounded-full bg-primary p-2;
+  }
+
+  .ClearSearchWrapper {
+    @apply absolute right-8 top-0 bg-transparent;
+    margin: 0 0.5rem 0 0.3rem;
+  }
+
+  .SearchFilterSelect {
+    @apply rounded-br-none rounded-tr-none border-2 border-white bg-secondary px-6 py-3 text-abbey;
+    width: var(--search-bar-dropdown-width);
+
+    &[data-state='open'] {
+      @apply rounded-bl-none;
+    }
+  }
+
+  .SearchFilterSelectContent {
+    @apply rounded-tl-none rounded-tr-none;
+    width: calc(var(--search-bar-dropdown-width) - 1.7rem);
+  }
+
+  @media screen and (max-width: 768px) {
+    .SearchWrapper {
+      @apply order-1 col-span-2 max-w-full;
+    }
+  }
+}
